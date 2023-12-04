@@ -1,0 +1,72 @@
+/* pc.css */
+
+body {
+    /* background: lightgreen; */
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    /* background: #ccc; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+header h1 {
+    font-size: 26px;
+}
+
+header h1 a {
+    color: #fff;
+}
+
+nav ul li { 
+    display: inline-block;
+    margin-left: 2em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.hero-box {
+    /* header의 부모에 position 위치 기준 설정 */
+    position: relative;
+    background: pink;
+    background-image: url('../images/title\ \(1\).jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#hero {
+    /* background: #666; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* 박스정렬(블록요소) */
+    justify-content: center;
+    align-items: center;
+    /* 텍스트 정렬(인라인 요소) */
+    text-align: center;
+}
+
+.text-group {
+    position: relative;
+    width: 80%;
+    /* text-align: center; */
+    color: #fff;
+}
+
+.filter-box {
+    position: absolute;
+    background: rgba(0,0,0, 0.6);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}

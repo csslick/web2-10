@@ -1,0 +1,17 @@
+/* default.css 
+    여기에 var.css, reset.css 합침 
+*/
+@import url('./var.css');
+@import url('./reset.css');
+
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 3px 1em;
+    display: inline-block;
+}
