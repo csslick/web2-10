@@ -70,3 +70,55 @@ nav ul li a {
     left: 0;
     top: 0;
 }
+
+.text-group h2 {
+    margin-bottom: 40px;
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.text-group .sub-title {
+    margin-bottom: 40px;
+}
+
+.text-group .line {
+    border: 2px solid #fff;
+    width: 50px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#articles {
+    background: var(--bg-dark);
+    color: #fff;
+}
+
+#articles h1 {
+    font-weight: 400;
+}
+
+.container {
+    /* width: 1200px; */
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid red;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.list li {
+    width: calc(100% / 3);
+}
+
+.list li img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+.list {
+    display: flex;
+}
+
+.list h3 { font-weight: 400;}
